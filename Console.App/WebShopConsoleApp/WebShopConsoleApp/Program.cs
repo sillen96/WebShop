@@ -6,7 +6,7 @@ namespace WebShopConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("God morgon"); 
+            Console.WriteLine("God morgon HEJ  vGD"); 
         }
     }
 }
