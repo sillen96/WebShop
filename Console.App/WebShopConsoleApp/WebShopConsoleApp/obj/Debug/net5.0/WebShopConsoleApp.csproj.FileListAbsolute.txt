@@ -1,0 +1,16 @@
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\WebShopConsoleApp.exe
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\WebShopConsoleApp.deps.json
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\WebShopConsoleApp.runtimeconfig.json
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\WebShopConsoleApp.runtimeconfig.dev.json
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\WebShopConsoleApp.dll
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\ref\WebShopConsoleApp.dll
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\bin\Debug\net5.0\WebShopConsoleApp.pdb
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.csproj.AssemblyReference.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.AssemblyInfoInputs.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.AssemblyInfo.cs
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.dll
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\ref\WebShopConsoleApp.dll
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.pdb
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\Console.App\WebShopConsoleApp\WebShopConsoleApp\obj\Debug\net5.0\WebShopConsoleApp.genruntimeconfig.cache

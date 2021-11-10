@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace WebShopConsoleApp
@@ -94,38 +95,46 @@ namespace WebShopConsoleApp
     class Program
     {
 
-        void Generate
 
         static void Main(string[] args)
         {
             List<Product> products = new List<Product>();
 
+            products.Add(new Furniture(
+            0,
+            "Lergoblin",
+            "En liten figur som sjunger tvåstämmigt den kända ”Kloaksonaten” – inte särskilt vacker melodi, men underhållande!",
+            50,
+            0.3d,
+            0.3d,
+            0.2d,
+            "Varning: En tyst läge inkluderas inte i produkten."
+            ));
 
-            products.Add(
-            new Furniture
+            string[] array = { "En krossad tånagel från ett troll", "tre nypor trollört", "svett från en jätte" };
+            products.Add(new Elixir(
+                1,
+                "Blyfot",
+                "Detta magiska brygd vid konsumption kommer göra ena foten tjugo kilo tyngre.",
+                100,
+                array,
+                "Biverkningar kan förekomma: Svårigheter att springa, försämrad balansförmåga, en.. tung fot."
+            ));
+
+
+            foreach (var item in products)
             {
-            ID = 02,
-            Name = "Lergoblin",
-            Description = "En liten figur som sjunger tvåstämmigt den kända ”Kloaksonaten” – inte särskilt vacker melodi, men underhållande!",
-            Cost = 50,
-            Width = 0.3d,
-            Height = 0.3d,
-            Weight = 0.2d,
-            Warning = "Varning: En tyst läge inkluderas inte i produkten."
-        });
-            products.Add(
-            new Elixir
-            {
-                ID = 01,
-                Name = "Blyfot",
-                Description = "Denn flaskan har just nu ingen bestämt text, men det kommer!",
-                Cost = 100,
-                Ingredients = ("En krossad tånagel från ett troll", "tre nypor trollört", "svett från en jätte"), //Försöker komma på  hur man ska implantera en array-lösning här
-                Warning = "Biverkningar kan förekomma: Hög aptit, försämrad balansförmåga, en stor...fot"
-            });
-
-
-
+                if(item is Elixir)
+                {
+                Console.WriteLine(((Elixir)item));
+                Console.WriteLine(((Elixir)item).ID);
+                Console.WriteLine(((Elixir)item).Name);
+                Console.WriteLine(((Elixir)item).Description);
+                Console.WriteLine(((Elixir)item).Cost);
+                Console.WriteLine(((Elixir)item).Ingredients); //Försöker komma på en lösning för hantera arrays
+                Console.WriteLine(((Elixir)item).Warning);
+                }
+            }
 
         }
     }
