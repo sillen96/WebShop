@@ -82,6 +82,25 @@ namespace WebShopConsoleApp
             Warning = warning;
         }
 
+
+     class MagicFood : Product                                                 // Test av GITHUB gör en random produkt för att se ifall det funkar. Vi kan säkert använda detta med ifall vi har tid att införa en extra 
+     {  
+            public string Name { get; set; }
+            public string Descripion { get; set; }
+            public decimal Cost { get; set; }
+            public string Ingredients { get; set; }
+            public string warning { get; set; }
+
+
+            public MagicFood (string name, string description, decimal cost, 
+                              int width, int height, string ingredients, string warning)
+            { 
+                Name = name;
+                Descripion = description;
+                Cost = cost;
+                Ingredients = ingredients;
+                Warning = warning; 
+
     }
     class Program
     {
