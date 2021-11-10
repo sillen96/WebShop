@@ -15,18 +15,6 @@ namespace WebShopConsoleApp
         public string[] Ingredients { get; set; }
         public string Warning { get; set; }
 
-        public Product(string name, string description, decimal cost,
-        double width, double height, double weight, string[] ingredients, string warning)
-        {
-            Name = name;
-            Description = description;
-            Cost = cost;
-            Width = width;
-            Height = height;
-            Weight = weight;
-            Ingredients = ingredients;
-            Warning = warning;
-        }
     }
 
 
@@ -41,6 +29,18 @@ namespace WebShopConsoleApp
         public double Weight { get; set; }
         public string Warning { get; set; }
 
+        public Furniture(string name, string description, decimal cost,
+        double width, double height, double weight, string warning)
+        {
+            Name = name;
+            Description = description;
+            Cost = cost;
+            Width = width;
+            Height = height;
+            Weight = weight;
+            Warning = warning;
+        }
+
 
     }
 
@@ -52,6 +52,16 @@ namespace WebShopConsoleApp
         public string[] Ingredients { get; set; }
         public string Warning { get; set; }
 
+        public Elixir(string name, string description, decimal cost,
+        string[] ingredients, string warning)
+        {
+            Name = name;
+            Description = description;
+            Cost = cost;
+            Ingredients = ingredients;
+            Warning = warning;
+        }
+
     }
 
     class Tobacco : Product
@@ -62,15 +72,29 @@ namespace WebShopConsoleApp
         public string[] Ingredients { get; set; }
         public string Warning { get; set; }
 
+        public Tobacco(string name, string description, decimal cost,
+        double width, double height, double weight, string[] ingredients, string warning)
+        {
+            Name = name;
+            Description = description;
+            Cost = cost;
+            Ingredients = ingredients;
+            Warning = warning;
+        }
+
     }
     class Program
     {
+
 
         static void Main(string[] args)
         {
             List<Product> products = new List<Product>();
 
-            
+            products.Add(new Elixir(name, description, cost, ingredients, warning)); //Koden fungerar;
+                                                                                     //men har ingen hänvisning då detaljerna ännu inte har några värden eller strängar.
+          
+
         }
     }
 }
