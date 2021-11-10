@@ -17,9 +17,6 @@ namespace WebShopConsoleApp
         public string Warning { get; set; }
 
     }
-
-
-
     class Furniture : Product
     {
         public int ID { get; set; }
@@ -46,7 +43,6 @@ namespace WebShopConsoleApp
 
 
     }
-
     class Elixir : Product
     {
         public int ID { get; set; }
@@ -68,7 +64,6 @@ namespace WebShopConsoleApp
         }
 
     }
-
     class Tobacco : Product
     {
         public int ID { get; set; }
@@ -91,13 +86,12 @@ namespace WebShopConsoleApp
 
     }
 
-
     class Program
     {
-
-
         static void Main(string[] args)
         {
+            
+ 
             List<Product> products = new List<Product>();
 
             products.Add(new Furniture(
@@ -115,24 +109,43 @@ namespace WebShopConsoleApp
             products.Add(new Elixir(
                 1,
                 "Blyfot",
-                "Detta magiska brygd vid konsumption kommer göra ena foten tjugo kilo tyngre.",
+                "Denna magiska brygd vid konsumption kommer göra ena foten tjugo kilo tyngre.",
                 100,
                 array,
                 "Biverkningar kan förekomma: Svårigheter att springa, försämrad balansförmåga, en.. tung fot."
             ));
 
 
-            foreach (var item in products)
+            foreach (var item in products) // för varje > föremål > i listan "products>
+                                            // IFALL > föremålet är "Furniture" >
+                                            // Kör koden nedan (alltså alla meddelanden)
             {
-                if(item is Elixir)
+                if (item is Furniture)
                 {
-                Console.WriteLine(((Elixir)item));
-                Console.WriteLine(((Elixir)item).ID);
-                Console.WriteLine(((Elixir)item).Name);
-                Console.WriteLine(((Elixir)item).Description);
-                Console.WriteLine(((Elixir)item).Cost);
-                Console.WriteLine(((Elixir)item).Ingredients); //Försöker komma på en lösning för hantera arrays
-                Console.WriteLine(((Elixir)item).Warning);
+                    Console.WriteLine();
+                    Console.WriteLine(((Furniture)item));
+                    Console.WriteLine(((Furniture)item).ID);
+                    Console.WriteLine(((Furniture)item).Name);
+                    Console.WriteLine(((Furniture)item).Description);
+                    Console.WriteLine(((Furniture)item).Width);
+                    Console.WriteLine(((Furniture)item).Height);
+                    Console.WriteLine(((Furniture)item).Weight);
+                    Console.WriteLine(((Furniture)item).Cost);
+                    Console.WriteLine(((Furniture)item).Warning);
+                    Console.WriteLine();
+                }
+
+                if (item is Elixir)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine(((Elixir)item));
+                    Console.WriteLine(((Elixir)item).ID);
+                    Console.WriteLine("Namn: " + ((Elixir)item).Name);
+                    Console.WriteLine(((Elixir)item).Description);
+                    Console.WriteLine(((Elixir)item).Cost);
+                    Console.WriteLine(((Elixir)item).Ingredients); //Försöker komma på en lösning för hantera arrays
+                    Console.WriteLine(((Elixir)item).Warning);
+                    Console.WriteLine();
                 }
             }
 
