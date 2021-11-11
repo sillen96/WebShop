@@ -1,0 +1,8 @@
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.csproj.AssemblyReference.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.AssemblyInfoInputs.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.AssemblyInfo.cs
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.csproj.CoreCompileInputs.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.RazorAssemblyInfo.cache
+C:\Users\K-J\Documents\GitHub\WebShop\WebShop\RazorPages\WebShopProject\WebShopProject\obj\Debug\net5.0\WebShopProject.RazorAssemblyInfo.cs
