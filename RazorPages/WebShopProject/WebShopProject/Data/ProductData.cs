@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebShopProject.Models
 {
-    public class FurtnitureModel : ProductModel
+    public class ProductModel
     {
         public int ID { get; set; }
         public string Name { get; set; }
@@ -14,6 +14,7 @@ namespace WebShopProject.Models
         public double Width { get; set; }
         public double Height { get; set; }
         public double Weight { get; set; }
+        public string[] Ingredients { get; set; }
         public string Warning { get; set; }
 
     }

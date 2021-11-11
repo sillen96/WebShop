@@ -7,15 +7,28 @@ namespace WebShopProject.Models
 {
     public class ProductModel
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public decimal Cost { get; set; }
-        public double Width { get; set; }
-        public double Height { get; set; }
-        public double Weight { get; set; }
-        public string[] Ingredients { get; set; }
-        public string Warning { get; set; }
 
+        private List<Product> Products;
+
+        public ProductModel()
+        {
+            Products = new List<Product>()
+            {
+                new Product
+                {
+                    ID = 01,
+                    Name = "Lergoblin",
+                    Image = "image here",
+                    Description = "En liten figur som sjunger tvåstämmigt den kända ”Kloaksonaten” – inte särskilt vacker melodi, men underhållande!",
+                    Cost = 50,
+                    Height = 0.3d,
+                    Width = 0.3d,
+                    Weight = 0.2d,
+                    Warning = "Varning: Avsaknad av avstängingsläge förekommer."
+                }
+
+
+            }
+        }
     }
 }
