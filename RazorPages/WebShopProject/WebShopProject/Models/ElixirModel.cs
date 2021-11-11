@@ -7,8 +7,10 @@ namespace WebShopProject.Models
 {
     public class ProductModel
     {
-        public int ID { get; set; }
+
+        public string ID { get; set; }
         public string Name { get; set; }
+        public string Image { get; set; }
         public string Description { get; set; }
         public decimal Cost { get; set; }
         public double Width { get; set; }

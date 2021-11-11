@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebShopProject.Models
 {
-    public class ElixirModel : ProductModel
+    public class TobaccoModel : ProductModel
     {
 
         public string ID { get; set; }
