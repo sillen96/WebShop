@@ -153,6 +153,7 @@ namespace WebShopConsoleApp
                     Console.WriteLine(((Furniture)item).Cost);
                     Console.WriteLine(((Furniture)item).Warning);
                     Console.WriteLine();
+                            Console.WriteLine(HEJTEST);
                 }
 
                 if (item is Elixir)
