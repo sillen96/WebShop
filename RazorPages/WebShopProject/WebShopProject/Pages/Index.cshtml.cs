@@ -5,17 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebShopProject.Models;
 
 namespace WebShopProject.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
+        public List<ProductModel> Products { get; private set; }
 
         public void OnGet()
         {
