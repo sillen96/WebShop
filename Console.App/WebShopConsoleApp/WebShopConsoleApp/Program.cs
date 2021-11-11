@@ -123,6 +123,7 @@ namespace WebShopConsoleApp
                 if (item is Furniture)
                 {
                     Console.WriteLine();
+                    Console.WriteLine();
                     Console.WriteLine(((Furniture)item));
                     Console.WriteLine(((Furniture)item).ID);
                     Console.WriteLine(((Furniture)item).Name);
